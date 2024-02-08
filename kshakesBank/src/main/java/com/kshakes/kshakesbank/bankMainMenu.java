@@ -25,7 +25,7 @@ public class bankMainMenu {
     }
 
     public void addMoneyToUser() {
-        usersBank.setUsersMoney(currentMoney += 10.00F);
+        usersBank.setUsersMoney(currentMoney += 1000.00F);
         moneyText.setText(usersBank.returnMoneyAsStr());
     }
 
